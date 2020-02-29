@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.victorhadziristic.thecapguysapp" >
+    android:installLocation="internalOnly" >
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".AdminScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PersonalInformation"
+            android:label="@string/title_activity_personal_information" >
+        </activity>
+        <activity
+            android:name=".BrandSelect"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/title_activity_brand_select">
+        </activity>
+        <activity
+            android:name=".StyleSelect"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/title_activity_style_select" >
+        </activity>
+        <activity
+            android:name=".customerType"
+            android:label="@string/title_activity_customer_type" >
+        </activity>
+        <activity
+            android:name=".specialinfo"
+            android:label="@string/title_activity_specialinfo" >
+        </activity>
+        <activity
+            android:name=".thankscreen"
+            android:label="@string/title_activity_thankscreen" >
+        </activity>
+    </application>
+
+</manifest>

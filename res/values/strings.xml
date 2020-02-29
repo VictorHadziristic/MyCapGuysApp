@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">The Cap Guys App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_personal_information">The Cap Guys</string>
+    <string name="title_activity_brand_select">The Cap Guys</string>
+    <string name="title_activity_style_select">The Cap Guys</string>
+    <string name="button_session_create">Create Session</string>
+    <string name="button_session_resume">Resume Session</string>
+    <string name="button_next">Next</string>
+    <string name="button_submit">Submit</string>
+    <string name="editText_Full_Name">Full Name</string>
+    <string name="editText_Email">Email Address</string>
+    <string name="title_activity_customer_type">The Cap Guys</string>
+    <string name="title_activity_specialinfo">The Cap Guys</string>
+    <string name="title_activity_thankscreen">The Cap Guys</string>
+</resources>
